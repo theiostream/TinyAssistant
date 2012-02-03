@@ -1,0 +1,9 @@
+Package: me.melkhior.tinyassistant
+Name: TinyAssistant
+Depends: mobilesubstrate
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Description: make the bottom bar of Siri little
+Maintainer: Ron Melkhior
+Author: Ron Melkhior
+Section: Tweaks
