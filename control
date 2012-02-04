@@ -1,9 +1,16 @@
-Package: me.melkhior.tinyassistant
 Name: TinyAssistant
-Depends: mobilesubstrate
-Version: 1.0.0-1
+Package: me.melkhior.tinyassistant
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 5.0), gsc.assistant | com.chpwn.spire
+Version: 1.0.0-2
 Architecture: iphoneos-arm
-Description: make the bottom bar of Siri little
-Maintainer: Ron Melkhior
-Author: Ron Melkhior
+Description: shorter height bar when Siri appears
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tinyassistantDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tinyassistantDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ron Melkhior <ron3353@gmail.com>
 Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 20
+dev: ron3353
