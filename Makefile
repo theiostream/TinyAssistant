@@ -1,4 +1,5 @@
-export THEOS_DEVICE_IP = 10.0.0.11
+export GO_EASY_ON_ME = 1
+export THEOS_DEVICE_IP = 10.0.0.2
 include theos/makefiles/common.mk
 
 TWEAK_NAME = tinyAssistant

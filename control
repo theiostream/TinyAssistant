@@ -2,7 +2,7 @@ Name: TinyAssistant
 Package: me.melkhior.tinyassistant
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 5.0), gsc.assistant | com.chpwn.spire
-Version: 1.0.0-2
+Version: 1.0.1-1
 Architecture: iphoneos-arm
 Description: shorter height bar when Siri appears
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tinyassistantDp
