@@ -1,15 +1,16 @@
-//tinyAssistant: make the bottom bar of Siri little
+// tinyAssistant: make the bottom bar of Siri little
 
-BOOL homescreen;
+static BOOL homescreen = NO;
 
 %hook SBAssistantController
 - (float)bottomBarHeight {
-    if (homescreen) {
-        return %orig/1.5;
-    }
+    float orig = %orig;
+    
     if (!homescreen) {
-        return %orig/1.6;
+        return orig/1.6;
     }
+    
+    return orig;
 }
 %end
 
