@@ -1,16 +1,14 @@
-// tinyAssistant: make the bottom bar of Siri little
+// TinyAssistant: make the bottom bar of Siri little
+
+// By Ron Melkhior (license-free)
+// Modified by theiostream under the terms of the WTFPLv3 License (http://theiostream.github.com/wtfpl/LICENSE.txt)
 
 static BOOL homescreen = NO;
 
 %hook SBAssistantController
-- (float)bottomBarHeight {
-    float orig = %orig;
-    
-    if (!homescreen) {
-        return orig/1.6;
-    }
-    
-    return orig;
+- (CGFloat)bottomBarHeight {
+    CGFloat orig = %orig;
+    return !homescreen ? orig/1.6 : orig;
 }
 %end
 
